@@ -53,7 +53,6 @@ writeObsPow <- function(X, fName = "obs.pow", id = 2000, start_date, end_date, d
   cat("END", file = fName, append = TRUE, sep="\n" )	
 }
 
-setwd("P:/Projekte/23 Horw/2020/2320 297 Schenkon, GWF Zellfeld West/50_Auswertung/Berechnungen und Modellierungen/Grundwassermodellierung/01_Phase_Modell_Verifizierung")
 
 
 FILES <- c("RB_05_20", "RB_06_20", "RB_07_20", "RB_08_20")
